@@ -1,0 +1,31 @@
+{
+  "name": "hypertabs",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/boomermath/Hypertabs.git"
+  },
+  "scripts": {
+    "dev": "node server.js development",
+    "build": "nuxt build",
+    "start": "node server.js",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext \".js,.vue\" --ignore-path .gitignore --fix ."
+  },
+  "dependencies": {
+    "@nuxt/http": "^0.6.4",
+    "@nuxtjs/google-fonts": "^1.3.0",
+    "@nuxtjs/svg": "^0.3.0",
+    "core-js": "^3.20.1",
+    "corrosion": "^1.0.0",
+    "express": "^4.17.2",
+    "node-html-parser": "^5.1.0",
+    "nuxt": "^2.15.8",
+    "vue-tabs-chrome": "^0.10.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/color-mode": "^2.1.1",
+    "@nuxtjs/eslint-config": "^8.0.0",
+    "eslint": "^8.5.0",
+    "eslint-plugin-nuxt": "^3.1.0"
+  }
+}

@@ -1,0 +1,75 @@
+:root {
+  --background-color: rgba(227, 219, 215, 1);
+  --active-color: rgba(255, 255, 255, 1);
+  --icon-color: rgba(0, 0, 0, 1);
+  color: black;
+}
+
+.dark-mode {
+  --background-color: rgb(32, 33, 36);
+  --active-color: rgb(50, 54, 57);
+  --icon-color: rgba(255, 255, 255, 1);
+  color: white;
+}
+
+.red-mode {
+  --background-color: rgba(109, 18, 18, 1);
+  --active-color: rgba(167, 28, 28, 1);
+  --icon-color: rgba(255, 255, 255, 1);
+  color: white;
+}
+
+.orange-mode {
+  --background-color: rgba(255, 171, 64, 1);
+  --active-color: rgba(255, 223, 183, 1);
+  --icon-color: rgba(255, 255, 255, 1);
+  color: white;
+}
+
+.yellow-mode {
+  --background-color: rgba(255, 222, 93, 1);
+  --active-color: rgba(255, 255, 191, 1);
+}
+
+.green-mode {
+  --background-color: rgba(24, 57, 26, 1);
+  --active-color: rgba(39, 93, 43, 1);
+  --icon-color: rgba(255, 255, 255, 1);
+  color: white;
+}
+
+.blue-mode {
+  --background-color: rgba(13, 53, 98, 1);
+  --active-color: rgba(20, 83, 154, 1);
+  --icon-color: rgba(255, 255, 255, 1);
+  color: white;
+}
+
+.teal-mode {
+  --background-color: rgba(2, 57, 62, 1);
+  --active-color: rgba(4, 91, 98, 1);
+  --icon-color: rgba(255, 255, 255, 1);
+  color: white;
+}
+
+.purple-mode {
+  --background-color: rgba(70, 42, 104, 1);
+  --active-color: rgba(109, 65, 161, 1);
+  --icon-color: rgba(255, 255, 255, 1);
+  color: white;
+}
+
+html {
+  font-family: "Barlow", sans-serif;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.background {
+  background-color: var(--background-color);
+  height: 100vh;
+  overflow: hidden;
+}
